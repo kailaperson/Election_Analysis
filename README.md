@@ -28,5 +28,28 @@ The analysis of the election show that:
   - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 
 ## Challenge Overview 
+The election commission has requested the following additional data to complete the audit.
+
+1. Calculate the voter turnout for each county.
+2. Calculate the perentage of votes from each county out of the total count.
+3. Determine the county with the highest turn out.
+
+## Challenge Audit Results ##Use images or examples of your code as support where necessary.
+The analysis of the election show that: 
+- There were 369,711 votes cast in the election.
+- The counties were: 
+  - Jefferson
+  - Denver
+  - Arapahoe
+- The county reults were: 
+  - Jefferson received 10.5% of the vote and 38,855 number of votes.
+  - Denver received 82.8% of the vote and 306,055 number of votes.
+  - Arapahoe recieved 6.7% of the vote and 24,801 number of votes.
+- The winning county of the election was: 
+  - Denever, who received 82.8% of the vote and 306,055 number of votes.
 
 ## Challenge Summary
+This script can be used for any election by doing the following:
+- Make sure the new data source file holds the same format of : Ballot ID, County, Candidate 
+- Line 9: file_to_load = os.path.join("Resources", "election_results.csv")
+Change "Resources" to the appropiate folder and change "election_results.csv" to the new data source. 
